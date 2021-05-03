@@ -1,0 +1,130 @@
+body{
+    box-sizing: border-box;
+    position: relative;
+}
+
+header{
+    background-color: #d8c292;
+    top: 0;
+    width: 90%;
+    padding: 100px;
+}
+
+header h1{
+    color:#363636;
+    font-weight: bolder;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: xxx-large ;
+    padding: -20px 0px;
+    line-height: 0px ;
+
+
+
+}
+header nav{
+    
+    padding:60px 300px ;
+    float: right;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+
+}
+header nav ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color:#b67171 ;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#order{
+
+    position: sticky;
+    background-color: brown;
+    display: inline-flex;
+    top: 17px;
+
+    
+}
+#fish{
+    background-image: url('../salmon.png');
+    height: 227px;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+
+}
+main p{
+    color:#363636;
+line-height: 40px;
+background-color: #c19065;
+top: 500px;
+text-align: center;
+font-weight: bold;
+
+}
+
+
+#sech:hover{
+
+text-decoration: dashed;
+color:brown ;
+
+
+
+}
+
+ .salmon{
+    background-image: url('../x.jpg');
+    height: 300px;
+    margin: 20px;
+    padding: 100 100px;
+    background-repeat:round;
+    
+    
+    
+}
+
+.thrsalomn{
+    text-align: center;
+    color:#363636;
+    background-color: #c19065;
+    margin: 1px;
+}
+
+.cookies{
+    background-image: url('../cookiesfish.jpg');
+    height: 400px;
+    background-repeat:space;
+
+
+
+}
+
+
+.offer{
+    background-color: #344fa1;
+}
+.offer:hover{
+    text-decoration: dashed;
+color:brown ;
+
+}
+
+.proten{
+    background-color: #344fa1;
+
+
+}
+
+footer{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    background-color: #d8c292;
+}
