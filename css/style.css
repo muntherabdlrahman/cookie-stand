@@ -126,5 +126,13 @@ footer{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
-    background-color: #d8c292;
+    background-color: #c9b280;
+}
+
+
+
+table,
+th,
+td{
+    border: 2px solid green;
 }
