@@ -1,12 +1,13 @@
 body{
     box-sizing: border-box;
     position: relative;
+    width: 100%;
 }
 
 header{
     background-color: #d8c292;
     top: 0;
-    width: 90%;
+    width: 100%;
     padding: 100px;
 }
 
@@ -25,7 +26,7 @@ header h1{
 }
 header nav{
     
-    padding:60px 300px ;
+    padding:60px 250px ;
     float: right;
     
 }
@@ -100,7 +101,8 @@ color:brown ;
 .cookies{
     background-image: url('../cookiesfish.jpg');
     height: 400px;
-    background-repeat:space;
+    background-repeat:repeat-x;
+    padding: 0 10px;
 
 
 
@@ -135,4 +137,10 @@ table,
 th,
 td{
     border: 2px solid green;
+
 }
+
+
+
+
+
