@@ -1,0 +1,23 @@
+
+body{
+    background-color:  #d8c292;
+}
+
+header h1{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header nav ul  a{
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    padding: 20px;
+    color: #363636;
+    
+
+}
+header nav ul a:hover{
+    color: brown;
+}

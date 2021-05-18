@@ -35,6 +35,7 @@ footer{
 section nav ul a{
     float:inline-start;
     text-decoration: none;
+    padding: 20px;
 
 }
 
