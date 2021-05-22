@@ -1,5 +1,5 @@
 'use strict';
-let favoritArry=['salmon','tona','salmon cookies']
+// let favoritArry=['salmon','tona','salmon cookies']
 
    
 
