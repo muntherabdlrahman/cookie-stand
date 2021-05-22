@@ -26,6 +26,9 @@ function Branch(name, minimumCustomer, maximumCustomer, avgCookies) {
     this.customerperHour = [];
     this.cookiesPerHour = [];
     this.totalofCookiesperDay = 0;
+    this.nameNew=' ';
+    this.maxNew=0;
+    this.maxNew=0;
 
 
     branchesInfo.push(this);
@@ -191,8 +194,46 @@ footer();
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
+//form
+
+let storeform =document.getElementById('Storeform');
+storeform.addEventListener('submit', submitter);
+let addedLocation;
+function submitter(event){
+    event.preventDefault();
+    
+    let nameNew = event.target.locationField.value;
+    let minNew = event.target.mincustomer.value;
+    let maxNew = event.target.maxcustomer.value;
+    let avgNew = event.target.avgcustomer.value; 
+    
+    
+    // nameNew.push(Branch.name);
+    // minNew.push(Branch.minimumCustomer);
+    //  maxNew.push(Branch.maximumCustomer);
+    // avgNew.push(Branch.avgCookies); 
+    
+    
+    
+    let addedLocation = new Branch(nameNew,minNew,maxNew,avgNew)
+    addedLocation.calcustomerperHour();
+    addedLocation.calcookiesPerHour();
+    addedLocation.render();
+    footer();
+    // addedLocation.footer();
+    
+    //Location.event.render
+    console.log(nameNew,minNew,maxNew,avgNew,'sdfsfds')
+    
+    if (maxNew>=minNew) {
+        alert('max should be greater than the min')
+        window.location.reload();
+    }
 
 
+    
+    document.getElementById("Storeform").reset();
+}
 
 
-
+submitter();
